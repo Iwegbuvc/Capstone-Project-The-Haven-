@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <>
       <Nav/>
+      <h1>Hi</h1>
       <Footer/>
     </>
   )

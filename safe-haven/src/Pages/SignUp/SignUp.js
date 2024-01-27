@@ -1,7 +1,12 @@
 import React from 'react'
+import Nav from '../../components/Nav/Nav'
 
 export default function SignUp() {
   return (
-    <div>SignUp</div>
+    <>
+    <Nav/>
+    <div>SignUp</div> 
+  </>
+
   )
 }

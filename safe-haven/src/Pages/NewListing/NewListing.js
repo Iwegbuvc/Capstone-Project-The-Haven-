@@ -1,7 +1,12 @@
 import React from 'react'
+import Nav from '../../components/Nav/Nav'
 
 export default function NewListing() {
   return (
-    <div>NewListing</div>
+    <>
+    <Nav/>
+    <div>NewListing</div>   
+  </>
+   
   )
 }

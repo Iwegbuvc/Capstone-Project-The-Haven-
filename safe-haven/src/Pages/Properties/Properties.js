@@ -1,12 +1,12 @@
 import React from 'react'
 import Nav from '../../components/Nav/Nav'
 
-export default function FeatureListing() {
+export default function Properties() {
   return (
     <>
-    <Nav/>
-    <div>FeatureListing</div>    
-  </>
+      <Nav/>
+      <div>Properties</div>
+    </>
 
   )
 }
