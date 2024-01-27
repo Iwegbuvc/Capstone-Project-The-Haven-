@@ -1,0 +1,25 @@
+/* General resets */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+}
+
+/* variables */
+:root{
+    /* colors */
+--grey-sh: #D9D9D9;
+--blue-sh: #0602B2;
+--dark-sh: #1A1A1A;
+--text-white-sh: #F4F4F4;
+
+    /* font */
+--font-family: 'Inter', sans-serif;
+}
+
+
+body{
+    font-family: var(--font-family);
+}
