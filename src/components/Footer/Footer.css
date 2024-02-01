@@ -1,0 +1,33 @@
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.FooterItems{
+    padding: 40px 60px;
+}
+
+.FooterConnect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 60px;
+}
+
+.FooterLink{
+    color: #fff;
+    margin: 2.5rem 0;
+    text-transform: uppercase;
+}
+
+.connect{
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.global-class-name{
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
