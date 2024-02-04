@@ -24,6 +24,10 @@ export default function SignUp() {
   const handleHomeOwner = () => {
     console.log('Button clicked!');
   };
+
+  const handleRegister = () => {
+    console.log('Button clicked!');
+  };
   return (
     <>
     <Nav/>
@@ -107,7 +111,7 @@ export default function SignUp() {
 
       <div className='flex justify-center mt-8 font-bold'>
       <Button
-        onClick={handleHomeOwner}
+        onClick={handleRegister}
         label="REGISTER"
         color="#FFFFFF"
         backgroundColor = "#1E18FF"
