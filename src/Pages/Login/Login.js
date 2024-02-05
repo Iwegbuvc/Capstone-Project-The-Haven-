@@ -2,6 +2,7 @@
 import Nav from '../../components/Nav/Nav'
 import { useState } from 'react';
 import Button from '../../components/button/Button';
+import { Link } from 'react-router-dom'
 
 export default function Login() {
   const [email, setEmail] = useState('');
@@ -43,7 +44,7 @@ export default function Login() {
       </div>
 
       <div className='flex justify-center ml-3 mt-1 gap-2'>
-        <h3 className=''>Don't have an account yet? </h3>  
+        <h3 className=''>Don't have an account yet? </h3> <span className='text-[#0602B2]'><Link to="/signup" >Sign Up</Link></span>  
         </div>
  
 
@@ -57,7 +58,7 @@ export default function Login() {
         
       </div>
       <div className='hidden md:flex md:justify-center items-center md:w-[25%]'>
-        <h1 className='font-[1000] text-[40px] text-[#F4F4F4] p-[20px] '><span className='text-[#0602B2]'>LOGIN</span> TO GET THE FULL EXPERIENCE <span className='text-[#0602B2]'>EXPERIENCE</span></h1>
+        <h1 className='font-[1000] text-[40px] text-[#F4F4F4] p-[20px] '><span className='text-[#0602B2]'>LOGIN</span> TO GET THE FULL <span className='text-[#0602B2]'>EXPERIENCE</span></h1>
 
        </div>
       </div>
