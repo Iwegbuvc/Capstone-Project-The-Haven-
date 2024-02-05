@@ -123,7 +123,7 @@ export default function SignUp() {
       />
       </div>
       <div className='flex justify-center ml-3 mt-3 gap-2'>
-        <h3 className=''>Already have an account? </h3>  
+        <h3 className=''>Already have an account? </h3> <span className='text-[#0602B2]'><Link to="/Login" >Login</Link></span>  
         </div>
       </div>
   

@@ -2,6 +2,7 @@
 import Nav from '../../components/Nav/Nav'
 import { useState } from 'react';
 import Button from '../../components/button/Button';
+import { Link } from 'react-router-dom'
 
 export default function Login() {
   const [email, setEmail] = useState('');
@@ -43,7 +44,7 @@ export default function Login() {
       </div>
 
       <div className='flex justify-center ml-3 mt-1 gap-2'>
-        <h3 className=''>Don't have an account yet? </h3>  
+        <h3 className=''>Don't have an account yet? </h3> <span className='text-[#0602B2]'><Link to="/signup" >Sign Up</Link></span>  
         </div>
  
 
