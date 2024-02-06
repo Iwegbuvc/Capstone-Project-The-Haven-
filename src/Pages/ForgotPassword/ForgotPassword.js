@@ -57,7 +57,7 @@ export default function ForgotPassword() {
         
       </div>
       <div className='hidden md:flex md:justify-center items-center md:w-[25%]'>
-        <h1 className='font-[1000] text-[40px] text-[#F4F4F4] p-[20px] '><span className='text-[#0602B2]'>ForgotPassword</span> TO GET THE FULL <span className='text-[#0602B2]'>EXPERIENCE</span></h1>
+        <h1 className='font-[1000] text-[40px] text-[#F4F4F4] p-[20px] '><span className='text-[#0602B2]'>Enter Your Email </span> address and we’ll send you a link to reset your  <span className='text-[#0602B2]'>Password.</span></h1>
 
        </div>
       </div>
