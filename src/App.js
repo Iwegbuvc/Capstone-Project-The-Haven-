@@ -7,6 +7,7 @@ import FeatureListing from "./Pages/FeatureListing/FeatureListing";
 import Login from "./Pages/Login/Login";
 import SignUp from "./Pages/SignUp/SignUp";
 import Properties from "./Pages/Properties/Properties";
+import ForgotPassword from "./Pages/ForgotPassword/ForgotPassword";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <Route path="contact" element={<Contact/>}/>
     <Route path="login" element={<Login/>}/>
     <Route path="signup" element={<SignUp/>}/>
+    <Route path="forgotpassword" element={<ForgotPassword/>}/>
   </Routes>
   );
 }
