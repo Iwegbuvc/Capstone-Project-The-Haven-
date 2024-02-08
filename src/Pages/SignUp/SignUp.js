@@ -32,7 +32,7 @@ export default function SignUp() {
     <>
     <Nav/>
     <div className='bg-signup-pattern bg-cover h-[100vh] flex items-center'>
-      <div className='flex justify-center gap-20 pb-24 mt-16 '>
+      <div className='flex justify-center gap-20 pb-24 mt-12 '>
 
       <div className='rounded-2xl bg-white py-12 px-8 mt-14 w-[400px] md:w-[70%] max-w-[400px]'>
         <h1 className='text-[#0602B2] text-[24px] font-bold mt-6 mb-2'>SIGN UP NOW</h1>
