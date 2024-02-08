@@ -13,7 +13,7 @@ export default function ForgotPassword() {
   return (
     <>
     <Nav/>
-    <div className='bg-signup-pattern bg-cover h-[100%]'>
+    <div className='bg-signup-pattern bg-cover h-[100vh] flex items-center'>
       <div className='flex justify-center gap-20 pb-24 '>
 
       <div className='rounded-2xl bg-white py-12 px-8 mt-10 w-[400px] md:w-[75%] max-w-[400px] md:max-w-[450px]'>

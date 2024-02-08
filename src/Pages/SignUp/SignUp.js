@@ -31,10 +31,10 @@ export default function SignUp() {
   return (
     <>
     <Nav/>
-    <div className='bg-signup-pattern bg-cover h-[100%]'>
-      <div className='flex justify-center gap-20 pb-24 '>
+    <div className='bg-signup-pattern bg-cover h-[100vh] flex items-center'>
+      <div className='flex justify-center gap-20 pb-24 mt-16 '>
 
-      <div className='rounded-2xl bg-white py-12 px-8 mt-10 w-[400px] md:w-[70%] max-w-[400px]'>
+      <div className='rounded-2xl bg-white py-12 px-8 mt-14 w-[400px] md:w-[70%] max-w-[400px]'>
         <h1 className='text-[#0602B2] text-[24px] font-bold mt-6 mb-2'>SIGN UP NOW</h1>
         <form  className='flex flex-col gap-2'>
     <div className='flex gap-2'>  
