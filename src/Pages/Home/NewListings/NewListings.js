@@ -5,7 +5,9 @@ import './NewListings.css'
 
 export default function NewListings() {
 
-    const NewListing = NewListingData.map((list) => {
+  const ListSize = 3;
+
+    const NewListing = NewListingData.slice(0, ListSize).map((list) => {
         return <Listing key={list.id} ListClass={'new-listing'} {...list} />;
     });
 
@@ -16,9 +18,8 @@ export default function NewListings() {
           {NewListing}
         </section>
         <section className="new-listing__btn">
-          <SimpleLink linkclass='btn' linkname='See all' linktarget="properties"  />
+          <SimpleLink linkclass='btn' linkname='See all' linktarget="new-listing"  />
         </section>
-        
     </section>
   )
 }

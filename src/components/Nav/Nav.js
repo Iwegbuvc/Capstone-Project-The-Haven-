@@ -20,7 +20,7 @@ const handleClick = () => setClick(!click);
             <SimpleLink linkclass='link' linkname='Properties' linktarget="properties"  />
             <SimpleLink linkclass='link' linkname='About Us' linktarget="about"  />
             <SimpleLink linkclass='link' linkname='Contact Us' linktarget="contact"  />
-            <SimpleLink linkclass='link link__login' linkname='Login' linktarget="login"  />
+            <SimpleLink linkclass='link link__login blue-sh-clr' linkname='Login' linktarget="login"  />
         </section> 
         <section className='nav__icons' onClick={handleClick}>
           {click? <FaTimes />:<FaBars />}

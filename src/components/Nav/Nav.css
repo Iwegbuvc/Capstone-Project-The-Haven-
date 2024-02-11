@@ -1,6 +1,5 @@
 .nav{
     background: var(--grey-sh);
-    margin-bottom: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,6 +15,10 @@
 
 .nav__items{
     display: flex;
+}
+
+.link:last-child{
+    margin-left: 10rem;
 }
 
 .link{
@@ -57,5 +60,9 @@
     .link{
         border: none;
         padding: 1rem 0;
+    }
+
+    .link:last-child{
+        margin-left: 1rem;
     }
 }

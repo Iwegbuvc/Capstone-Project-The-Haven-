@@ -1,11 +1,11 @@
 import React from 'react'
 import SimpleLink from '../../../components/Helpers/Links/SimpleLink'
-import HeroImg from '../../../Assets/images/HeroImg.png'
+import HeroImg from '../../../Assets/images/Heroimage.png'
 import './Hero.css'
 
 const image= {
   background: `url(${HeroImg}) no-repeat center center/cover`,
-  border: '1px solid grey'
+  border: '0.1rem solid var(--grey-sh)'
 }
 
 

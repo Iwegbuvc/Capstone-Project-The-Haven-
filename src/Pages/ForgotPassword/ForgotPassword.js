@@ -4,9 +4,10 @@ import { useState } from 'react';
 import Button from '../../components/button/Button';
 import { Link } from 'react-router-dom'
 
+
 export default function ForgotPassword() {
   const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  // const [password, setPassword] = useState('');
   const handleForgotPassword = () => {
     console.log('Button clicked!');
   };

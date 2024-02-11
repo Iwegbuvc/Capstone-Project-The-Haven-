@@ -6,9 +6,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'signup-pattern': "url('./assets/images/BACKGROUND.png')",
-        
-      }
+        'signup-pattern': "url('/src/Assets/images/background.png')",
+      },
     },
   },
   plugins: [],

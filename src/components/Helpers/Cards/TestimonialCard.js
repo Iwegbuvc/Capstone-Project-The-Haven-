@@ -1,4 +1,3 @@
-import { IconContext } from "react-icons";
 import "./TestimonialCard.css"
 import { RxAvatar } from "react-icons/rx";
 

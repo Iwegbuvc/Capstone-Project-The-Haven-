@@ -1,40 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.about-us__paragraph{
+  /* width: 89%; */
+  margin: 0.3rem 0;
+  line-height: 1.3rem;
+  text-align: center;
+}
 
-*{
-  margin-top:0px;
-  margin-left:0px;
+.about__heading{
+  margin-top: 0.5rem;
+  font-size: var(--small-fs);
 }
-.main_container{
-  background-image: url('https://res.cloudinary.com/dlvxqyg4z/image/upload/v1707092403/safehaven/about%20background.png');
- background-size: cover;
- width: 100%;
- height: 800px;
-font-family: "Inter", sans-serif;
-text-align:center;
 
-}
-h2{
- 
-  font-weight: bold;
-  font-size: 64px;
-  padding-top:70px;
-}
-.about_text{
-  color:#1A1A1A;
-}
-.us_text{
-  color:#1E18FF;
-}
-.full_text{
-  color:#1A1A1A;
-  background-color: #F4F4F4;
-  font-size: 1.9rem;
-  font-weight:400;
-  width:80%;
-  margin-left:10%;
-  height:25%;
-  padding:50px 20px;
-  line-height:40px;
-  border-radius:8px;
-  
+@media screen and (min-width: 768px){
+  .about-us__paragraph{
+    width: 90%;
+    margin: 1rem auto;
+    line-height: 2rem;
+    text-align: center;
+  }
+
+  .about__heading{
+    margin-top: 2rem;
+    font-size: var(--xmedium-fs);
+  }
 }
