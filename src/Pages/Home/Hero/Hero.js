@@ -21,7 +21,7 @@ export default function Hero() {
           </h2>
           <section className='content__btns'>
               <SimpleLink linkclass='btn' linkname='Find a home' linktarget="properties"  />
-              <SimpleLink linkclass='btn' linkname='List a home' linktarget="new-listing"  />
+              <SimpleLink linkclass='btn' linkname='List a home' linktarget="list-home"  />
           </section>
       </section>
     </main>
