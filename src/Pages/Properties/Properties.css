@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.main_container{
+  margin-top:0px;
+  margin-left:80px;
+  margin-right:20px;
+  font-family:Inter;
+}
+.heading_text{
+ margin-bottom:60px;
+  font-size:46px;
+  font-weight:600;
+}
+.upper_container{
+    display:grid;
+    grid-template-areas:
+    'large_view  side_view1' 
+    'large_view  side_view2';
+  
+  grid-column-gap:20px;
+  grid-row-gap:20px;
+}
+.large_view{
+    grid-area: large_view;
+}
+.side_view1{
+    grid-area: side_view1;
+
+}
+.side_view2{
+    grid-area: side_view2;
+  
+}
+.lower_container{
+  display:grid;
+  grid-template-areas:'feature price'
+  'description price';
+  
+  margin-top:60px;
+  
+}
+.features_container{
+  grid-area:feature;
+  display:flex;
+  flex-wrap: wrap;
+  column-gap:60px;
+  border-radius: 16px;
+  border: 1px solid rgba(6, 2, 178, 0.26);
+  background: #FFF;
+  width: 700px;
+  text-align:center;
+  flex-shrink: 0;
+}
+.feature_name{
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 27.5px */
+}
+.feature_value{
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 44px */
+}
+.description_text{
+
+  font-size:46px;
+  font-weight:600;
+}
+.description_container{
+  width: 700px;
+  text-wrap: wrap;
+}
+.description_content{
+  width: 700px;
+  flex-shrink: 0;
+  grid-area:description;
+  color: #000;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 166.667% */
+  text-align: justify;
+  
+}
+.price_container{
+  grid-area:price;
+  display:flex;
+  flex-direction:row;
+  row-gap:50px;
+  background: rgba(217, 217, 217, 0.50);
+  width:340px;
+  height: 500px;
+  padding-top:50px;
+  flex-shrink: 0;
+  justify-content:center;
+}
+label{
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 27.5px */
+  padding-bottom:20px;
+}
+input{
+  display: flex;
+  width: 272px;
+  height: 42px;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 2px solid #0602B2;
+  background: #FFF;
+}
+button{
+  text-align:center;
+  width: 300px;
+  height: 62px;
+  padding: 10px;
+  color:white;
+  border-radius: 30px;
+  background: #0602B2;
+
+}
