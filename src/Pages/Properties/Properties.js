@@ -2,8 +2,6 @@ import React from 'react'
 import Nav from '../../components/Nav/Nav'
 import './Properties.css'
 import Footer from '../../components/Footer/Footer'
-import NewListings from '../Home/NewListings/NewListings'
-import FeatureListings from '../Home/FeatureListings/FeatureListings'
 
 
 export default function Properties() {
@@ -105,7 +103,7 @@ export default function Properties() {
         </div>
       </div>
     </div>
-
+    <Footer/>
     </>
   );
 }
