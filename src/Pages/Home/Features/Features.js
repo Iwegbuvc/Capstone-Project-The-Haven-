@@ -1,6 +1,6 @@
-import Smart from '../../../Assets/svg/FeatureOne.png'
-import Secure from '../../../Assets/svg/FeatureTwo.png'
-import Transparent from '../../../Assets/svg/FeatureThree.png'
+import Smart from '../../../assets/svg/FeatureOne.png'
+import Secure from '../../../assets/svg/FeatureTwo.png'
+import Transparent from '../../../assets/svg/FeatureThree.png'
 import "./Features.css"
 
 export default function Features() {
