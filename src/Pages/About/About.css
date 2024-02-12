@@ -1,0 +1,25 @@
+.about-us__paragraph{
+  /* width: 89%; */
+  margin: 0.3rem 0;
+  line-height: 1.3rem;
+  text-align: center;
+}
+
+.about__heading{
+  margin-top: 0.5rem;
+  font-size: var(--small-fs);
+}
+
+@media screen and (min-width: 768px){
+  .about-us__paragraph{
+    width: 90%;
+    margin: 1rem auto;
+    line-height: 2rem;
+    text-align: center;
+  }
+
+  .about__heading{
+    margin-top: 2rem;
+    font-size: var(--xmedium-fs);
+  }
+}

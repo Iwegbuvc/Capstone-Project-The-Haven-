@@ -1,0 +1,23 @@
+.testimonial{
+   display: grid;
+   grid-template-columns: 1fr;
+   margin: 2rem 0;
+   align-items: center;
+   text-align: center;
+}
+
+
+.testimonial__heading{
+    font-size: var(--xmedium-fs);
+}
+
+
+@media screen and (min-width: 768px){
+    .testimonial{
+        grid-template-columns: repeat(2, 1fr);
+     }
+     
+     .testiomonial__heading{
+         font-size: var(--xmedium-fs);
+     }
+}
