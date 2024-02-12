@@ -1,9 +1,11 @@
 import React from 'react'
-
+import Nav from '../../components/Nav/Nav'
 import './Properties.css'
 
 export default function Properties() {
   return (
+    <>
+    <Nav/>
    <div className="main_container">
       <h3 className="heading_text">List a home</h3>
       <div class="upper_container">
@@ -101,6 +103,6 @@ export default function Properties() {
         </div>
       </div>
     </div>
-
+    </>
   );
 }
