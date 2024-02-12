@@ -1,0 +1,84 @@
+/* General resets */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* variables */
+:root{
+    /* colors */
+--grey-sh: #D9D9D9;
+--blue-sh: #0602B2;
+--dark-sh: #1A1A1A;
+--text-white-sh: #F4F4F4;
+
+    /* font */
+--font-family: 'Inter', sans-serif;
+
+    /*  font sizes*/
+--msmall-fs: 20px;
+--small-fs: 26px;
+--smedium-fs: 32px;
+--medium-fs:36px;
+--xmedium-fs: 40px;
+--large-fs: 56px;
+--xlarge-fs: 64px;
+--xxlarge-fs: 80px;
+
+/* Font Weight */
+--w-fw-one: 500;
+--w-fw-two: 700;
+
+}
+
+.wrapper{
+    width: 95%;
+    margin: 2rem auto;
+}
+
+
+
+
+/* Links reset */
+a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+img{
+   max-width: 100%;
+}
+
+
+/* body */
+body{
+    font-family: var(--font-family);
+}
+
+/* Global Color */
+.blue-sh-clr{
+    color: var(--blue-sh);
+}
+
+.blue-sh-bg{
+    background-color: var(--blue-sh);
+    color: var(--text-white-sh);
+}
+
+
+/* btns */
+.btn{
+    border-radius: 50px;
+    padding: 0.5rem 0.75rem;
+    background: var(--blue-sh);
+    color: var(--text-white-sh);
+    margin: 0.5rem 0.75rem 0 0 ;
+}
+
+
+
