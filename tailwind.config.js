@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'signup-pattern': "url('/src/Assets/images/background.png')",
+        'signup-pattern': "url('/src/Assets/images/BACKGROUND.png')",
       },
     },
   },

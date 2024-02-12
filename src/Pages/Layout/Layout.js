@@ -1,6 +1,6 @@
-import React, { Children } from 'react'
+import React from 'react'
 import Nav from '../../components/Nav/Nav'
-import HeroImg from '../../Assets/images/background.png'
+import HeroImg from '../../Assets/images/BACKGROUND.png'
 import './Layout.css'
 
 
