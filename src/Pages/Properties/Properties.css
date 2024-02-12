@@ -124,12 +124,12 @@ input{
   background: #FFF;
 }
 button{
+  text-align:center;
   width: 300px;
   height: 62px;
   padding: 10px;
   color:white;
   border-radius: 30px;
   background: #0602B2;
-  text-align:center;
 
 }

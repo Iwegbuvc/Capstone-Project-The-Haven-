@@ -24,7 +24,7 @@ export default function Properties() {
             <h6 className="feature_name">Bedrooms</h6>
             <p className="feature_value">x</p>
           </div>
-          <div className="feature_item2">
+          <div className="feature_item">
             <h6 className="feature_name">Bathrooms</h6>
             <p className="feature_value">x</p>
           </div>
