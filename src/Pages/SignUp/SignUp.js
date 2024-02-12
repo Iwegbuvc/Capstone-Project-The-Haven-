@@ -9,6 +9,7 @@ import Button from '../../components/button/Button';
 
 
 
+
 export default function SignUp() {
   const [fName, setFName] = useState('');
   const [lName, setLName] = useState('');
@@ -71,19 +72,17 @@ export default function SignUp() {
 
       <div className='flex flex-col gap-2'>
         <label>Phone Number*</label>
-        <PhoneInput
-        international
+        <PhoneInput international
             placeholder="Phone number"
             defaultCountry="NG"
             value={phone}
             onChange={setPhone}
             withCountryCallingCode
-            inputProps= {{
-            required: true,
-      }}
+            inputprops= {{
+            required: true,}}
       
-      className='text-[#0602B2] border-2 border-[#9D9D9D] rounded-xl' 
-      />
+            className='text-[#0602B2] border-2 border-[#9D9D9D] rounded-xl'/>
+        
       <div className='flex justify-start ml-5 mt-4 gap-2'>
         <h3 className=''>Signing Up as a </h3>  
       <Button
