@@ -9,6 +9,7 @@ import Button from '../../components/button/Button';
 
 
 
+
 export default function SignUp() {
   const [fName, setFName] = useState('');
   const [lName, setLName] = useState('');
@@ -31,10 +32,10 @@ export default function SignUp() {
   return (
     <>
     <Nav/>
-    <div className='bg-signup-pattern bg-cover h-[100%]'>
-      <div className='flex justify-center gap-20 pb-24 '>
+    <div className='bg-signup-pattern bg-cover h-[100vh] flex items-center'>
+      <div className='flex justify-center gap-20 pb-24 mt-12 '>
 
-      <div className='rounded-2xl bg-white py-12 px-8 mt-10 w-[400px] md:w-[70%] max-w-[400px]'>
+      <div className='rounded-2xl bg-white py-12 px-8 mt-14 w-[400px] md:w-[70%] max-w-[400px]'>
         <h1 className='text-[#0602B2] text-[24px] font-bold mt-6 mb-2'>SIGN UP NOW</h1>
         <form  className='flex flex-col gap-2'>
     <div className='flex gap-2'>  
@@ -71,19 +72,17 @@ export default function SignUp() {
 
       <div className='flex flex-col gap-2'>
         <label>Phone Number*</label>
-        <PhoneInput
-        international
+        <PhoneInput international
             placeholder="Phone number"
             defaultCountry="NG"
             value={phone}
             onChange={setPhone}
             withCountryCallingCode
-            inputProps= {{
-            required: true,
-      }}
+            inputprops= {{
+            required: true,}}
       
-      className='text-[#0602B2] border-2 border-[#9D9D9D] rounded-xl' 
-      />
+            className='text-[#0602B2] border-2 border-[#9D9D9D] rounded-xl'/>
+        
       <div className='flex justify-start ml-5 mt-4 gap-2'>
         <h3 className=''>Signing Up as a </h3>  
       <Button
@@ -123,7 +122,7 @@ export default function SignUp() {
       />
       </div>
       <div className='flex justify-center ml-3 mt-3 gap-2'>
-        <h3 className=''>Already have an account? </h3>  
+        <h3 className=''>Already have an account? </h3> <span className='text-[#0602B2] font-semibold'><Link to="/login" style={{textDecoration: 'underline'}} >Login</Link></span>  
         </div>
       </div>
   

@@ -1,28 +1,68 @@
-nav.TopNav{
+.nav{
+    background: var(--grey-sh);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(217, 217, 217, 0.28);
-    padding: 20px 40px;
+    height: 5rem;
+    position: relative;
+    padding: 0 1.5rem;
 }
 
-.LogoName{
-    font-size: var(--large-fs);
+.nav .logo{
     font-weight: var(--w-fw-two);
+    font-size: var(--small-fs);
 }
 
-.haven{
-    margin-left: 0.3rem;
-    display: inline-block;
-}
-
-.NavItems{
+.nav__items{
     display: flex;
 }
 
-.NavLink{
-    margin-inline: 23px;
+.link:last-child{
+    margin-left: 10rem;
+}
+
+.link{
+    border: 0.05rem solid #2b2b2b;
     border-radius: 50px;
-    border: 0.5px solid #000;
-    padding: 5px 10px;
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+}
+
+.nav__icons{
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+    .nav__icons{
+        display: block;
+    }
+
+    .show{
+        display: block;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .nav__items{
+        background-color: var(--grey-sh);
+        flex-direction: column;
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        width: 100%;
+        padding: 0.5rem 0;
+        border-top: 1px dotted var(--blue-sh);
+        z-index: 2;
+    }
+
+    .link{
+        border: none;
+        padding: 1rem 0;
+    }
+
+    .link:last-child{
+        margin-left: 1rem;
+    }
 }

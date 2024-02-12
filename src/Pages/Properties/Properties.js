@@ -1,6 +1,10 @@
 import React from 'react'
 import Nav from '../../components/Nav/Nav'
 import './Properties.css'
+import Footer from '../../components/Footer/Footer'
+import NewListings from '../Home/NewListings/NewListings'
+import FeatureListings from '../Home/FeatureListings/FeatureListings'
+
 
 export default function Properties() {
   return (
@@ -98,11 +102,10 @@ export default function Properties() {
               <p>The master bath boasts a clawfoot tub, while the guest bath features a glass-enclosed shower.</p>
             </div>
           </div>
-            
-        
         </div>
       </div>
     </div>
+
     </>
   );
 }
